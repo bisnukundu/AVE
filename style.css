@@ -1,0 +1,682 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+/* ==============================================
+TOP_HEAD_END
+============================================== */
+.head{
+    padding: 20px 0px;
+    background:#FFFFFF;
+}
+.container{
+    width:1170px;
+    margin:auto;
+    overflow: hidden;
+    border:1px solid black;
+    height: 100%;
+}
+.menu_top{
+    width:70%;
+    float:left;
+}
+.p{
+    float: left;
+    margin-right: 30px;
+}
+.i_p{
+    float:left;
+    margin-right: 10px;
+}
+.e{
+    float:left;
+    margin-right: 30px;
+}
+.i_m{
+    float:left;
+    margin-right: 10px;
+}
+.i_m i{
+    font-size:15px;
+}
+.i_c p{
+    font-weight: bold;
+    font-size:14px
+}
+.w{
+    float:left;
+    margin-right: 30px;
+}
+.i_w i{
+    font-size:15px;
+    
+}
+.w_c p{
+    font-weight: bold;
+    font-size:14px
+}
+.i_p i{
+    font-size:15px;
+}
+.p_c p{
+    font-weight: bold;
+    font-size:14px
+}
+.i_w{
+    float:left;
+    margin-right: 10px;
+}
+.w_c{
+    float: right;
+}
+.i_c{
+    float: right;
+}
+.p_c{
+    float: right;
+}
+.social{
+    width:15%;
+    float:left;
+    border-right: 1px solid #EDEDED;
+}
+.social a{
+    display:block;
+    float:left;
+    padding:0px 10px;
+    text-decoration:none;
+}
+.social a i{
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity:0.5;
+}
+.social a i:hover{
+    opacity: 1;
+}
+.j_t_d{
+    width:15%;
+    float: right;
+    border-right:1px solid #EDEDED;  
+}
+.j_t_d p{
+    padding: 0px 20px;
+    height:21px;
+    font-weight: bold;
+}
+.p p{
+    font-weight: bold;
+    font-size:14px;
+}
+
+/* ==============================================
+TOP_HEAD_END
+============================================== */
+
+/* ==============================================
+SECOND_HEAD_START
+============================================== */
+.menu_head{
+    background: url(images/bg-22.jpg) no-repeat;
+    background-size:cover;
+    height: 700px;
+}
+.logo{
+    width:40%;
+    float:left;
+}
+.logo h1{
+    color:white;
+}
+.main_menu{
+    width:60%;
+    float:right;
+}
+.main_menu ul{
+    overflow:hidden;
+    float:right;
+    padding:20px 0px;
+}
+.main_menu ul li{
+    float:left;
+    list-style:none;
+}
+.main_menu ul li a{
+    padding:10px 20px;
+    text-decoration:none;
+    display:block;
+    color:#C3C6CA;
+    transition:0.5s;
+}
+.main_menu ul li a:hover{
+    color:white;
+}
+.txt_conten{
+    width:50%;
+    float:left;
+}
+.txt_conten h1{
+    color:white;
+    font-size: 55px;
+}
+.txt_conten p{
+    margin-top:50px;
+    color:white;
+    font-size:22px;
+    line-height:1.5;
+    text-transform:capitalize;
+}
+.txt_conten button{
+    background:#ffb09f;
+    color:black;
+    padding:20px 40px;
+    border:none;
+    text-transform: uppercase;
+    font-size:20px;
+    border-radius:5px ;
+    margin-top:50px;
+    transition:1s;
+}
+.txt_conten button i{
+    line-height: 20px;
+}
+.txt_conten button:hover{
+    background:white;
+}
+/* ==============================================
+SECOND_HEAD_END
+============================================== */
+
+/* ==============================================
+BODY_SECTION_START
+============================================== */
+.b_c{
+    width:33.3333%;
+    overflow:hidden;
+    float:left;
+    padding: 100px 0px;
+}
+.b_c_t{
+    float:right;
+    width:70%;
+}
+.b_c_t p{
+    margin-top:15px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    color:#808996;
+}
+.b_l{
+    float:left;
+    width:20%;
+    text-align:center;
+}
+.b_c_t h3{
+    text-transform: capitalize;
+}
+.b_l i{
+    color:white;
+    background:black;
+    width:60px;
+    height: 60px;
+    border-radius:50%;
+    line-height: 60px;
+    font-size:30px;
+    transition:0.5s;
+    cursor: default;
+}
+.b_l i:hover{
+    background:#ffc70a;
+}
+
+/* ==============================================
+BODY_SECTION_END
+============================================== */
+.initial_concepts{
+    padding-bottom:100px;
+}
+.i_c_content{
+    width:33.3333%;
+    position: relative;
+    height:250px;
+    border-radius: 10px;
+    float: left;
+}
+.i_c_t{
+    text-align:center;
+    padding:50px 0px;
+}
+.i_c_t h1{
+    font-size:40px;
+}
+.front{
+    width:100%;
+    position: absolute;
+    transform:perspective(600px) rotateX(0deg);
+    backface-visibility:hidden;
+    transition: 1s;
+    border-radius: 10px;
+}
+.front img{
+    width:100%;
+    border-radius: 10px;
+}
+.front h3{
+    background: white;
+    display:inline;
+    color:black;
+    padding:20px 30px;
+    border-radius:5px;
+    position: absolute;
+    left: 120px;
+    top: 100px;
+
+}
+.back{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    line-height: 250px;
+    text-align:center;
+    background: black;
+    color:white;
+    transform:perspective(600px) rotateX(180deg);
+    backface-visibility:hidden;
+    transition: 1s;
+    border-radius: 10px;
+}
+.back h3{
+    border-bottom:1px solid white;
+    display:inline;
+    padding:10px 0px;
+}
+.i_c_content:hover .back{
+   
+    transform:perspective(600px) rotateX(0deg);
+}
+.i_c_content:hover .front{
+    
+    transform:perspective(600px) rotateX(-180deg);
+}
+/* ====================================================== */
+.great{
+    background: url(images/bg-23.jpg)no-repeat;
+    background-size:cover;
+    height: 430px;
+    margin:85px 0px;
+}
+.great_txt{
+    width:50%;
+    float:left;
+    margin-top:90px;
+}
+.great_txt h3{
+    text-align:right;
+    color:white;
+    font-size:47px;
+}
+/* =========================================== */
+.ave_is_better{
+    background:#FFFFFF;
+}
+.ave_conten{
+    width:100%;
+}
+.lf_conten{
+    width:50%;
+    float:left;
+}
+.lf_conten h3{
+    font-size:40px;
+    margin-bottom: 20px;
+}
+.lf_conten ol{}
+.lf_conten ol li{
+    padding:20px 0px;
+    font-weight: bold;
+    font-size:15px;
+}
+.lf_conten ol li i{
+    margin-right: 10px;
+    color:#f3c114;
+}
+
+.lf_conten button{
+    padding:15px 30px;
+    border: 2px solid black;
+    background: none;
+    font-weight: bold;
+    font-size:20px;
+    margin-top:30px;
+}
+.lf_conten button:hover{
+    background: black;
+    color:white;
+}
+.rg_conten{
+    width:50%;
+    padding:20px;
+    float:right;
+}
+.rg_conten img{
+    width:100%;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+}
+ /* SCORE SECTION START */
+ .score_section{
+     background:url("images/bg-24.jpg") no-repeat;
+     height: 400px;
+     background-size:cover;
+ }
+ .s_overlay{
+     background:#0000009c;
+     height: 400px;
+ }
+ .score{
+     width:25%;
+     float:left;
+     color:white;
+     text-align: center;
+     margin-top:133px;
+ }
+ .score h3{
+    font-size:50px;
+ }
+ .score p{
+     text-transform: uppercase;
+     color:#ffffff;
+     opacity: 0.6;
+ }
+ .score i{
+     font-size:50px
+ }
+ /* SCORE SECTION END */
+ /* ===================================== */
+ /* ESTIMONIALS SECTION START */
+ .testimonials{
+     padding:100px 0px;
+ }
+ .t_head{
+     font-size:40px;
+     text-align:center;
+     margin-bottom:60px;
+ }
+ .t_content{
+     width:50%;
+     text-align:center;
+     float:left;
+ }
+ .t_c_t{
+     width:100%;
+     background:#f8f9fb;
+     padding:45px;
+     position: relative;
+}
+.t_c_t::before{
+    content:"" ;
+    position: absolute;
+    background:#f8f9fb;
+    height:30px;
+    width:30px;
+    bottom: -27px;
+    transform: translate(-50%, -50%) rotate(45deg);
+
+}
+.t_c_t p{
+     line-height: 1.5;
+     color:#8f9396;
+}
+
+ .t_c_p{
+    margin-top:30px;
+ }
+ .t_c_p img{
+    width: 80px;
+    height:80px;
+    border-radius:50%;
+    margin-bottom:10px;
+} 
+.t_c_p p{
+    color:#b1b4bd;
+}
+ /* ESTIMONIALS SECTION END */
+ /* =================================== */
+ /* ALL LOGO SECTION START */
+ .all_logo{
+     background: #f7f8fc;
+     padding:60px 0px;
+ }
+    .a_l{
+        width:16.66%;
+        float:left;
+       animation: slide 2s infinite;
+    }
+    .a_l img{
+       opacity: 0.3;
+       cursor: pointer;
+       transition:1s;
+    }
+    .a_l img:hover{
+        opacity: 1;
+    }
+ /* ALL LOGO SECTION END */
+ /* =================================== */
+ /* GREAT THINGS SECTION START */
+  .g_t{
+    background: linear-gradient(#000000a3,#000000a3),url("images/bg-25.jpg") no-repeat;
+    background-size: cover;
+    height:500px;
+    position: relative;
+  }
+  .g_content{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .g_content h1{
+      color:white;
+      font-size:40px;
+      text-align:center;
+  }
+  .g_content span{
+      color:#f3c114;
+  }
+
+ /* GREAT THINGS SECTION END */
+ /* ================================== */
+ /* Latest Posts SECTION START */
+ .l_p_h{
+     text-align:center;
+     font-size:40px;
+     padding:60px 0px;
+ }
+ .latest_post{
+     padding:50px 0px;
+ }
+ .latest_content{
+     width:50%;
+     float: left;
+ }
+ .latest_c_i{
+     width:15%;
+     float:left;
+     height:70px;
+     text-align:center;
+     border:1px solid #eeeeee;
+
+ }
+ .latest_c_i h1{
+     font-size:30px;
+ }
+ .latest_c_i p{
+     color:#94989b;
+ }
+ .latest_c_t{
+     width:80%;
+     float:right;
+     line-height:1.5;
+ }
+ .latest_c_t h3{
+     margin-bottom:20px;
+ }
+ .latest_c_t p{
+    color:#94989b;
+ }
+ .latest_c_t h3{
+     font-size:21px;
+ }
+ .latest_c_t span{
+     margin-top:20px;
+     color:#97989c;
+     display:block;
+ }
+ .latest_c_t span i{
+     font-size:13px;
+ }
+ /* Latest Posts SECTION END */
+/* ===================================== */
+ /* CONTACT SECTION START */
+ .contact{
+     padding-bottom:100px;
+ }
+ .c_t{
+     font-size:30px;
+     text-align:center;
+     padding:30px 0px;
+ }
+ .map{
+     width:63%;
+     border:1px solid black;
+     float:left;
+     height:500px;
+ }
+ .map iframe{
+     width:100%;
+     height: 100%;
+ }
+ .from{
+     width:35%;
+     float:right;
+     border:1px solid black;
+     padding: 25px;
+     background:url("images/bg-90.jpg");
+     background-size:cover;
+     background-position: center;
+     height: 500px;
+ }
+ .from p{
+     color:#f3c114;
+     text-transform: uppercase;
+     margin-bottom: 10px;
+ }
+ .from h1{
+     margin-bottom: 20px;
+     font-size:25px;
+     color:white;
+ }
+ .from form input{
+     display:block;
+     width:100%;
+     padding:20px 0px;
+     margin:38px 0px;
+     background:none;
+     border:none;
+     color:white;
+ }
+ 
+ .from form button{
+     width:100%;
+     padding: 15px 30px;
+     background: #f3c114;
+     font-size: 20px;
+     text-transform: uppercase;
+     border:none;
+     margin-top:10px;
+
+ }
+ /* CONTACT SECTION END */
+ /* ================================= */
+  /* GREAT THINGS SECTION START */
+  .g_t_two{
+    background: linear-gradient(#000000a3,#000000a3),url("images/bg-27.jpg") no-repeat;
+    background-size: cover;
+    height:400px;
+    text-align: center;
+    position: relative;
+  }
+  .g_content button{
+      padding:10px 30px;
+      border:none;
+      background:#f3c114;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-top:20px;
+      
+  }
+  
+ /* GREAT THINGS SECTION END */
+ /* ================================ */
+ /* FOTTER SECTION START */
+ .footer{
+     background:black;
+     padding:50px 0px;
+ }
+ .f_c{
+     width:25%;
+     float:left;
+ }
+ .f_c h1{
+     color:white;
+     margin-bottom:20px;
+     text-transform:capitalize;
+ }
+ .f_c ul{}
+ .f_c ul li{
+     list-style:none;
+ }
+ .f_c ul li a{
+     color:white;
+     text-decoration: none;
+     text-transform:capitalize;
+     line-height: 1.5;
+     color:#94989b;
+ }
+ .f_c ul li input{
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+ }
+ .f_c ul li button{
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    margin-left:10px;
+    background:#f3c114;
+    color: white;
+ }
+ .f_c ul li ul{
+     height:60px;
+ }
+ .f_c ul li ul li {
+    list-style:none;
+    float:left;
+    color:white;
+ }
+ .f_c ul li ul li i{
+     color:white;
+     width:10px;
+     height:100%;
+     display:block;
+     padding:10px 20px;
+     opacity: 0.5;
+     transition:0.5s;
+ }
+ .f_c ul li ul li i:hover{
+     opacity: 1;
+ }
+ /* FOTTER SECTION END */
