@@ -15,7 +15,6 @@ TOP_HEAD_END
     width:1170px;
     margin:auto;
     overflow: hidden;
-    border:1px solid black;
     height: 100%;
 }
 .menu_top{
@@ -551,7 +550,6 @@ BODY_SECTION_END
  }
  .map{
      width:63%;
-     border:1px solid black;
      float:left;
      height:500px;
  }
